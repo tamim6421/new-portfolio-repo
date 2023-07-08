@@ -87,14 +87,19 @@ margin-bottom: 30px;
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px;
+    margin: 130px 0;
+}
+main{
+    max-width: 1140px;
+    margin: 0px 100px;
 }
 
 .section_title{
 color:  #181818;
 text-align: center;
 font-size: 35px;
-font-weight: 700;
+font-weight: 800;
+padding: 40px 0;
 
 }
 .section_description{
@@ -103,4 +108,89 @@ font-weight: 700;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;  
+    margin-bottom: 50px;
+}
+.about_info_container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about_info{
+color: #757575;
+text-align: center;
+font-size: 20px;
+
+
+}
+.info_description{
+color: #757575;
+text-align: center;
+font-size: 15px;
+
+
+}
+.skils_container{
+    display: flex;
+    gap: 25px;
+   
+
+}
+.skils{
+    padding: 25px;
+    
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skils_description{
+color:#757575;
+font-size: 16px;
+font-weight: 400;
+
+}
+.skils_icons{
+color: #181818;
+text-align: center;
+font-size: 20px;
+
+}
+.slils_title{
+    padding: 15px 0;
+}
+.education_title{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700; 
+}
+.resume_container{
+    display: flex;
+    gap: 50px;
+}
+.institute_name{
+    color:#757575;
+    font-size: 18px;
+    font-weight: 600; 
+    padding: 15px 0px;
+}
+.resume_itemtitle{
+    color:#474747;
+    font-size: 20px;
+    padding: 15px 0px;
+
+}
+.resume_descriptioon{
+color:#757575;
+font-size: 16px;
+font-weight: 400;
+}
+.resume_item{
+    padding: 20px 0px;
+
+}
+hr{
+    margin: 10px 0;
+}
+.download_cv{
+    text-align: center;
+    padding: 30px 0;
 }
