@@ -194,3 +194,75 @@ hr{
     text-align: center;
     padding: 30px 0;
 }
+.footer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 130px 200px;
+    gap: 30px;
+}
+
+.footer_title{
+    color: #181818;
+    
+    font-size: 35px;
+    font-weight: 700;
+}
+.meassage{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;  
+    padding-left: 30px;
+    
+}
+.footer_desc{
+    text-align: justify;
+}
+.icon img{
+padding: 10px 0;
+margin-top:20px 0 ;
+}
+.footer_column{
+    width: 50%;
+}
+
+textarea{
+    border: 0;
+}
+.cvbbt{
+    text-align: center;
+}
+
+.input_box{
+   width: 30%;
+    
+    margin:0 auto;
+    margin-top: 20px;
+}
+.copy_right{
+    display: block;
+}
+footer{
+    background-color:#FFF8F3 ;
+}
+input{
+    border-radius: 5px;
+    background: #FFF;  
+    border: 0;
+    color:#757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+    padding: 10px 10px ;
+
+}
+.name{
+    margin-bottom: 15px;
+}
+.email{
+    margin-bottom: 15px;
+}
+
+    
+}
